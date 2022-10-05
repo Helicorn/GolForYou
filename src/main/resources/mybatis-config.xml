@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+	
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.GolForYou.vo.rankingVO" alias="rank"/> 
+		<!-- bbsVO 빈클래스 객체명 별칭이름 bbs를 지정. 이 bbs를 mybatis 매퍼태그에서 참조. -->
+		
+	</typeAliases>
+</configuration>
+
